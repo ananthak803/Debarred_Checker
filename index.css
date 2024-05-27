@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #113f67;  
+    color: #113f67; 
+    font-family: "Reddit Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #38598b;
+    height: 65%;
+    width: 40%;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headingText{
+    /* display: flex; */
+    font-size: 50px;
+    margin: 9px;
+    font-weight: 600;
+}
+input{
+    width: 60%;
+    height: 10%;
+    font-size: 9px;
+    background-color:#113f67;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 8px;
+    /* text-align: center; */
+    border-radius: 5px;
+    color:#e7eaf6 ;
+    font-weight: 600;
+}
+input:hover{
+    background-color: #184974;
+}
+button{
+    font-size: 0.6em;
+    font-weight: 600;
+    width: 15%;
+    height: 7%;
+    background-color: #113f67;
+    border: none;
+    border-radius: 4px;
+    color:#e7eaf6 ;
+    /* border: 1px solid #e7eaf6 ;  */
+}
+button:hover{
+    background-color: #184974;
+}
+button:active{
+    color:#98999c ;
+}
+@media (max-width: 680px) {
+    .main{
+        width: 80%;
+    }
+    input{
+        font-size: 20px;
+    }
+    button{
+        width: 25%;
+        font-size: 13px;
+    }
+    
+}
