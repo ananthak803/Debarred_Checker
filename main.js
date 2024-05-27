@@ -14,7 +14,7 @@ while(temp<requiredPercentage){
     temp=(copy2/copy1)*100;
 }
 const requiredClasses = copy2-attendedClasses;
-    if(percentage > requiredPercentage){
+    if(percentage >= requiredPercentage){
         alert('you are safe');
     }
     else{
