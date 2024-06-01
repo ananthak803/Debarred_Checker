@@ -9,6 +9,7 @@ body{
     color: #113f67; 
     font-family: "Reddit Mono", monospace;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -63,6 +64,15 @@ button:hover{
 button:active{
     color:#98999c ;
 }
+/* .result{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    display:flex;
+    flex-direction: column;
+
+} */
 @media (max-width: 680px) {
     .main{
         width: 80%;
